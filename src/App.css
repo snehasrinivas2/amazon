@@ -2,6 +2,74 @@
   text-align: center;
 }
 
+.bv-form {
+  padding: 10px;
+  margin: 10px;
+  border-width: 2px;
+}
+
+.bv-add {
+  margin-left: 10px;
+  color: black;
+  background-color: coral;
+  border: 2px solid coral;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.bv-flexContainer {
+  display: grid;
+column-gap: 2px;
+row-gap: 2px;
+
+  border: 3px solid chocolate ;
+  width: 800px;
+}
+
+.bv-flexItem {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  color: chocolate;
+  border: 1px solid chocolate ;
+  width: 80%;
+}
+
+.bv-buttons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+
+  
+}
+
+.bv-button{
+  padding: 3px;
+  background-color: orange;
+  border:chocolate;
+  margin: 4px;
+  border-radius: 8px;
+  width: 60px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+.bv-title{
+  margin: 10px;
+  width: 100px;
+}
+.bv-strike{
+  text-decoration: line-through;
+}
+.bv-input {
+  padding: 8px;
+  border: Red;
+  background-color: bisque;
+  margin: 4px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
